@@ -22,7 +22,7 @@ jobs:
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         env:
-          CUSTOM_DOMAIN: ${{ secrets.CUSTOM_DOMAIN || 'iflyelf.com' }}
+          CUSTOM_DOMAIN: ${{ secrets.CUSTOM_DOMAIN || 'xiaonuo.in' }}
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{secrets.CF_ACCOUNT_ID}}
